@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "I Need Dogs",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "content_scripts": [
+        {
+        "js" : ["./scripts/content.js"],
+        "css": ["./styles.css"],
+        "matches": ["http://*/*"]
+        }
+    ],
+    "permissions" : ["tabs", "activeTab", "scripting"] 
+
+  }
