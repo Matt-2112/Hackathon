@@ -7,9 +7,9 @@
         {
         "js" : ["./scripts/content.js"],
         "css": ["./styles.css"],
-        "matches": ["http://*/*"]
+        "matches": ["http://*/*", "https://*/*"]
         }
     ],
-    "permissions" : ["tabs", "activeTab", "scripting"] 
+    "permissions" : ["tabs", "activeTab", "http://*/*", "scripting"] 
 
   }
